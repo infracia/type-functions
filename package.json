@@ -1,8 +1,9 @@
 {
   "name": "@infracia/promise-callback",
-  "version": "1.0.0",
-  "description": "wrap promise with try catch for inline error handling",
+  "version": "1.0.1",
+  "description": "wrap promise then/catch inline",
   "main": "build/index.js",
+  "types": "build/index.d.js",
   "repository": "https://github.com/infracia/promise-callback",
   "author": "Samar Meena <sumarmeena@gmail.com>",
   "license": "MIT",
@@ -10,6 +11,11 @@
   "scripts": {
     "build": "tsc"
   },
+  "keywords": [
+    "promise",
+    "function",
+    "wrapper"
+  ],
   "devDependencies": {
     "typescript": "^4.3.5"
   }
