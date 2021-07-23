@@ -1,6 +1,6 @@
 {
   "name": "@infracia/promise-callback",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "wrap promise then/catch inline",
   "main": "build/index.js",
   "types": "build/index.d.js",
