@@ -1,10 +1,10 @@
 {
-  "name": "@infracia/promise-callback",
-  "version": "1.0.2",
+  "name": "@infracia/type-functions",
+  "version": "1.0.3",
   "description": "wrap promise then/catch inline",
   "main": "build/index.js",
   "types": "build/index.d.js",
-  "repository": "https://github.com/infracia/promise-callback",
+  "repository": "https://github.com/infracia/type-functions",
   "author": "Samar Meena <sumarmeena@gmail.com>",
   "license": "MIT",
   "private": false,
