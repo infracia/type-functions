@@ -1,7 +1,7 @@
 # Example
 
 ```ts
-import promiseWrap from "@infracia/promise-callback";
+import { PromiseWrap } from "@infracia/type-functions";
 
 // promise function
 async function testMe() {
@@ -14,7 +14,7 @@ async function testMe() {
 
 // test function
 async function func() {
-  const [error, pass] = await promiseWrap(testMe());
+  const [error, pass] = await PromiseWrap(testMe());
   if (error) console.log("function returned error");
   else console.log("function passsed", pass);
 }

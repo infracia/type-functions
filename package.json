@@ -1,6 +1,6 @@
 {
   "name": "@infracia/type-functions",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "wrap promise then/catch inline",
   "main": "build/index.js",
   "types": "build/index.d.js",
